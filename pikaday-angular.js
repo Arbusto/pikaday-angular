@@ -112,7 +112,7 @@
             case "maxDate":
             case "defaultDate":
 
-              config[attr] = new Date(value);
+              config[attr] = moment(value, config["format"]).toDate();
               break;
 
             // Elements
