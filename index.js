@@ -1,2 +1,2 @@
-require('pikaday-angular.js');
+require('./pikaday-angular.js');
 module.exports = 'pikaday';
